@@ -10,10 +10,10 @@ Also, the jasmine-headless-webkit testing is based on the [headless_hamlc](https
 
 To get this application working on you local machine, you have to execute the following:
 
-* Run
-``` git://github.com/mishu91/backbone-headless-testing.git ```
-* Run
-``` cd backbone-headless-testing ```
+* ``` git clone git://github.com/mishu91/backbone-headless-testing.git ```
+* ``` cd backbone-headless-testing ```
+* ``` bundle install ```
+* ``` rake db:migrate ```
 * Install qt, the instructions are [here](https://github.com/thoughtbot/capybara-webkit/wiki/Installing-Qt-and-compiling-capybara-webkit)
 * If you are on Ubuntu/Debian, you have to install xvfb
 ``` sudo apt-get install xvfb ```
