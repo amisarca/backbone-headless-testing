@@ -1,0 +1,5 @@
+namespace :pick do
+  desc "Pick a random user as the winner"
+  task :winner => :environment do
+    puts "Winner: #{pick(User).name}"
+  end

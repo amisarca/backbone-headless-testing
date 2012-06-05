@@ -1,0 +1,16 @@
+spec_dir: spec/javascripts
+spec_files:
+  - '**/*_spec.*'
+helpers:
+  - helpers/**/*
+
+src_dir:
+  - app/assets/javascripts
+  - lib/assets/javascripts
+  - vendor/assets/javascripts
+  - app/assets/templates
+
+src_files: ["**/application.*"]
+
+stylesheets:
+  - app/assets/stylesheets/**/*.css.*
