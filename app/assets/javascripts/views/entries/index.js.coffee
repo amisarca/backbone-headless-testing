@@ -8,7 +8,7 @@ class BackboneHeadlessTesting.Views.EntriesIndex extends Backbone.View
 
   initialize: ->
     @collection.on 'reset', @render
-    @collection.on 'add', @render
+    @collection.on 'add', @appendEntry
 
   render: =>
     $(@el).html(@template())
